@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Countries</title>
-    <link href="2-api.css" rel="stylesheet>"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Countries</title>
+  <link href="2-api.css" rel="stylesheet">
 </head>
+
 <body>
+  <body background="http://lifespeaks.tv/wp-content/uploads/2011/05/Earth__Space_HD_wallpaper-800x5003.jpg">
   <h1> Countries</h1>
-    
+  <h2>Enter country name for info</h2>
+
   <div class="wrapper">
-  <div class="controls">
-    
+    <center>
+      <form id="searchForm">
+      <label for="search"></label>
+      <input type="text" id="search" class="search" required>
 
-    <form>
-
-            <p>
-                    <label for="search">Enter country name here:</label>
-                    <input type="text" id="search" class="search" required>
-            </p>
-            <p>
-                    <button class="submit">Submit search</button>
-            </p>
+      <button class="submit">Submit search</button>
     </form>
-  </div>
 
-  <div class="results">
+    <div id="results"></div>
+  </div>  <!--- End Wrapper -->  
+</center>
 
-<section>
+    <script type="text/javascript" src="3-api.js"></script>
 
 
-</section>
-</div>
-
-  <script type="text/javascript" src="3-api.js"></script>
+    <!-- <script type="text/javascript" src="3-api.js"></script> -->
 </body>
+</body>
+
 </html>
